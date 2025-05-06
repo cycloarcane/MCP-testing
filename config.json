@@ -3,6 +3,13 @@
     "time": {
       "command": "uvx",
       "args": ["mcp-server-time", "--local-timezone=America/New_York"]
+    },
+
+
+    "gpu": {
+      "command": ".venv/bin/python3",
+      "args": ["-u", "tools/gpu_info.py"]
+
     }
   }
 }
